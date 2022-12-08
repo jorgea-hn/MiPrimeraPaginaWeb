@@ -1,0 +1,95 @@
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ddf1f9+29,ddf1f9+41,feffff+99 */
+
+body{
+ 
+background: #ddf1f9; /* Old browsers */
+background: -moz-linear-gradient(top,  #ddf1f9 29%, #ddf1f9 41%, #feffff 99%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #ddf1f9 29%,#ddf1f9 41%,#feffff 99%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #ddf1f9 29%,#ddf1f9 41%,#feffff 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ddf1f9', endColorstr='#feffff',GradientType=0 ); /* IE6-9 */
+}
+
+
+h1 {
+  color: black;
+  text-align: center;
+}
+
+p {
+  font-family: arial;
+  font-size: 18px;
+}
+
+
+
+
+
+
+#main-header {      
+	background: #333;   /* con esto marcamos el color de la cabecera   */
+	height: 110px; /* con esto marcamos el ancho de la linea negra   */
+
+}	
+
+
+	#main-header a {
+		color: white;  /* con esto marcamos el color de las letras de la cabecera  */
+		font-family: arial;
+         font-size: 16px;
+	}
+
+
+#logo-header {
+	float: left;
+	padding: 80px 10px 10px 25px;    /* con esto marcamos los bordes de la imagen  del  texto negro */
+	text-decoration: none;
+}
+	
+#logo-header .site-desc {
+		display: block;
+		font-weight: 300;
+		font-size: 0.8em;   /* con esto colocamos el tamaño general del icono y eslogan de la cabecera*/
+		color: #BFBFBF;    /* con esto colocamos el color de la cabecera*/
+}
+	
+	
+.site-name	
+{
+  position: absolute;
+  left: 70px;
+  top: 10px;
+}	
+	
+
+	
+/*esto sirve para colocar la imagen en un lugar*/
+
+
+/*
+ * Navegación
+ */
+nav {
+	float: right;
+}
+	nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		padding-right: 30px;
+	}
+	
+		nav ul li {
+			display: inline-block;
+			line-height: 110px;
+		}
+			
+			nav ul li a {
+				display: block;
+				padding: 0 10px;
+				text-decoration: none;
+			}
+			
+				nav ul li a:hover {
+					background: #0b76a6;
+				}
+				
